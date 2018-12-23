@@ -1,0 +1,378 @@
+/*
+body
+*/
+
+body {
+  color: #707070;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* メニューが隠れないようにするための処理 */
+.bl {
+  width: 100%;
+  height: 50px;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top:0;
+}
+
+li {
+  line-height: 30px;
+}
+
+
+/*
+font
+*/
+
+
+h1 {
+  font-size: 17px;
+  font-weight: bold;
+  color: #ACACAC;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-family: '';
+}
+
+h2 span {
+  color: #D7BB42;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+/*
+section
+*/
+
+section {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.border {
+border-bottom:.5px solid lightgrey;
+width: 60%;
+margin-left: 20%;
+margin-right: 20%;
+padding-top: 20px;
+/* padding-bottom: 20px; */
+}
+
+/*
+head
+*/
+
+.head {
+  display: block;
+  position: fixed;
+  top:0;
+  width: 100%;
+  height: 120px;
+  background-color: white;
+  /* margin-bottom: 5px; */
+  z-index: 999;
+  box-shadow: 0 0 30px lightgray;
+}
+
+.head img {
+  position: absolute;
+  left: 10%;
+  padding-top: 10px;
+}
+
+.head a {
+  position: absolute;
+  right: 200px;
+  display: inline-block;
+  padding: 10px 20px 10px;
+  color: white;
+  font-size: 17px;
+  background-color: gray;
+  font-weight: bold;
+  margin-top: 18px;
+  text-decoration: none;
+  /* margin-right: 5%;
+  margin-left: 95%; */
+}
+
+.head a:hover {
+  background-color: lightgray;
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+nav ul {
+  width: 100%;
+  display: inline-block;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 15px;
+}
+
+nav .line {
+  position: relative
+  top: -5px;
+  display: inline-block;
+  width: 1px;
+  height: 40px;
+  border-left: 1px solid #D7BB42;
+  vertical-align: middle;
+}
+
+nav li{
+  display: inline-block;
+  margin-top: 0;
+}
+
+nav  a{
+  text-decoration: none;
+  color: inherit;
+  font-size: 17px;
+  font-weight: lighter;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+nav  a:hover{
+  color: #D7BB42;
+  border-bottom: 1px solid #D7BB42 ;
+}
+
+/*
+concept
+*/
+
+.concept ul li {
+  list-style-type: none;
+  display: inline-block;
+  max-width: 450px;
+  padding: 10px 40px;
+  vertical-align: top;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  }
+
+
+.concept ul {
+  padding-left: 0; /*なぜか右に寄る*/
+  padding-bottom: 10px;
+}
+
+.concept span {
+  color: red;
+  font-weight: bold;
+}
+
+.concept p {
+  font-size: 12px;
+}
+
+/*
+product
+*/
+
+.prbox {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prbox  br{
+  display: none;
+}
+
+.product {
+  max-width: 500px;
+  padding: 10px 20px 0 10px;
+  border: 2px solid #D7BB42;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.primg {
+  margin: 10px 0 10px;;
+  width: 100px;
+  height: 100px;
+  background: url(21.png) no-repeat center;
+  background-size:contain;
+  float: left;
+}
+
+.product  h1{
+  margin-top: 34px;
+  display:inline-block;
+}
+
+.product  h1 span{
+  font-size: 30px;
+  color: #D7BB42;
+  font-weight: bold;
+}
+
+.product:hover {
+  background: lightyellow;
+  -webkit-transform: translateY(1px);
+  transform: translateY(1px);
+}
+
+/*
+about
+*/
+
+.about {
+  background-color: lightgray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about br {
+  display: none;
+}
+
+.about h1 {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.about ul {
+  display: inline-block;
+  list-style-type: none;
+  text-align:center;
+  max-width: 300px;
+  padding: 60px 80px 80px;
+  vertical-align: top;
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+  }
+
+  /*
+  conpanyinfo
+  */
+
+.companyinfo {
+  width: 80%;
+  margin-left:  10%;
+  margin-right: 10%;
+  text-align: left;
+}
+
+.tite {
+  font-size: 28px;
+  border-left: 8px solid  blue;
+}
+
+.bar {
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+}
+
+.companyinfo  li{
+  list-style-type: none;
+}
+
+.teamname {
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.companyinfo ul {
+  display: inline-block;
+}
+
+.teamlogo {
+  padding-left: 0;
+}
+
+
+/*
+tpic
+*/
+
+.tpic {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.tpic div {
+  width: 100%;
+  background-color: lightgray;
+  height: 200px;
+}
+
+.sen {
+  font-size: 28px;
+}
+
+ .tpp {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+/*
+footer
+*/
+
+
+footer {
+  display: flex;
+  background-color: #707070;
+  color: white;
+  text-align: left;
+  position: relative;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+footer div {
+  padding:40px 40px 40px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+footer ul  {
+  list-style-type: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white ;
+}
+
+footer a:hover {
+  opacity: .5;
+}
+
+.at {
+ font-size: 15px;
+ margin: 0;
+ background-color: black;
+}
